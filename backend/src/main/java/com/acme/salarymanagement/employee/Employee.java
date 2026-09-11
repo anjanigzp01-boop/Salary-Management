@@ -1,6 +1,7 @@
 package com.acme.salarymanagement.employee;
 
 import jakarta.persistence.Column;
+import jakarta.persistence.CascadeType;
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;
@@ -57,7 +58,7 @@ public class Employee {
     @Version
     private long version;
 
-    @OneToOne(mappedBy = "employee", optional = false)
+    @OneToOne(mappedBy = "employee", optional = false, cascade = CascadeType.ALL)
     private Compensation compensation;
 
     protected Employee() {
@@ -79,6 +80,17 @@ public class Employee {
 
     public Long getId() { return id; }
     public String getEmployeeNumber() { return employeeNumber; }
+    public String getFirstName() { return firstName; }
+    public String getLastName() { return lastName; }
+    public String getEmail() { return email; }
     public String getCountry() { return country; }
     public String getDepartment() { return department; }
+    public String getJobTitle() { return jobTitle; }
+    public LocalDate getHireDate() { return hireDate; }
+    public EmploymentStatus getEmploymentStatus() { return employmentStatus; }
+    public Compensation getCompensation() { return compensation; }
+
+    public void assignCompensation(Compensation compensation) {
+        this.compensation = compensation;
+    }
 }

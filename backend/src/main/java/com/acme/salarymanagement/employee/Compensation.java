@@ -54,4 +54,9 @@ public class Compensation {
         this.currency = currency;
         this.effectiveDate = effectiveDate;
     }
+
+    public BigDecimal getAnnualBaseSalary() { return annualBaseSalary; }
+    public int getBonusTargetPercent() { return bonusTargetPercent; }
+    public String getCurrency() { return currency; }
+    public LocalDate getEffectiveDate() { return effectiveDate; }
 }
