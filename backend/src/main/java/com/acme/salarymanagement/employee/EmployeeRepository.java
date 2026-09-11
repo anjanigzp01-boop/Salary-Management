@@ -7,9 +7,14 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.domain.Specification;
 
+import java.util.Optional;
+
 public interface EmployeeRepository extends JpaRepository<Employee, Long>, JpaSpecificationExecutor<Employee> {
 
     @Override
     @EntityGraph(attributePaths = "compensation")
     Page<Employee> findAll(Specification<Employee> specification, Pageable pageable);
+
+    @EntityGraph(attributePaths = "compensation")
+    Optional<Employee> findByEmployeeNumber(String employeeNumber);
 }
