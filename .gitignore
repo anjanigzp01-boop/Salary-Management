@@ -13,6 +13,7 @@ frontend/.vite/
 .idea/
 .vscode/
 *.log
+*.tsbuildinfo
 
 # Local runtime data and secrets
 backend/data/
