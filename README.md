@@ -27,3 +27,12 @@ docs/                    Product, architecture, and delivery decisions
 In one terminal, run `cd backend && mvn spring-boot:run`. The first startup creates a local SQLite file and seeds 10,000 synthetic employees. In a second terminal, run `cd frontend && npm install && npm run dev`. Open `http://localhost:5173`.
 
 Detailed product scope and the delivery plan are in [docs](docs/).
+
+## Assessment artifacts
+
+- [Requirements](docs/requirements.md)
+- [Planning and design](docs/planning-and-design.md)
+- [Architecture and diagrams](docs/architecture.md)
+- [Trade-offs](docs/trade-offs.md)
+- [Performance considerations](docs/architecture.md#performance-considerations)
+- [AI prompts and validation](docs/ai-prompts-and-validation.md)

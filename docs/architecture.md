@@ -17,6 +17,18 @@ Spring Boot REST API (/api/v1)
 SQLite (local development) -> PostgreSQL-compatible JPA design (production)
 ```
 
+```mermaid
+flowchart LR
+  HR[HR Manager] --> UI[React / Vite UI]
+  UI -->|REST JSON| API[Spring Boot API]
+  API --> D[Employee directory]
+  API --> C[Compensation + audit]
+  API --> A[Analytics]
+  D --> DB[(SQLite / PostgreSQL)]
+  C --> DB
+  A --> DB
+```
+
 ## Key decisions
 
 | Decision | Why |
