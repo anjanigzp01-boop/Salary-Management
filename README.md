@@ -22,4 +22,8 @@ docs/                    Product, architecture, and delivery decisions
 2. Run the Spring Boot API on `http://localhost:8080`.
 3. Run the Vite application on `http://localhost:5173`.
 
+## Run locally
+
+In one terminal, run `cd backend && mvn spring-boot:run`. The first startup creates a local SQLite file and seeds 10,000 synthetic employees. In a second terminal, run `cd frontend && npm install && npm run dev`. Open `http://localhost:5173`.
+
 Detailed product scope and the delivery plan are in [docs](docs/).
