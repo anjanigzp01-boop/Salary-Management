@@ -1,0 +1,23 @@
+# Java / Spring Boot
+backend/target/
+backend/.mvn/
+*.class
+
+# JavaScript / React
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Tooling / operating system
+.DS_Store
+.idea/
+.vscode/
+*.log
+
+# Local runtime data and secrets
+backend/data/
+backend/*.db
+backend/*.db-*
+.env
+.env.*
+!.env.example

@@ -1,9 +1,0 @@
-/Users/rahulraj/Documents/ChatGPT/Salary-Management/backend/src/main/java/com/acme/salarymanagement/SalaryManagementApplication.java
-/Users/rahulraj/Documents/ChatGPT/Salary-Management/backend/src/main/java/com/acme/salarymanagement/employee/Compensation.java
-/Users/rahulraj/Documents/ChatGPT/Salary-Management/backend/src/main/java/com/acme/salarymanagement/employee/CompensationRepository.java
-/Users/rahulraj/Documents/ChatGPT/Salary-Management/backend/src/main/java/com/acme/salarymanagement/employee/Employee.java
-/Users/rahulraj/Documents/ChatGPT/Salary-Management/backend/src/main/java/com/acme/salarymanagement/employee/EmployeeRepository.java
-/Users/rahulraj/Documents/ChatGPT/Salary-Management/backend/src/main/java/com/acme/salarymanagement/employee/EmploymentStatus.java
-/Users/rahulraj/Documents/ChatGPT/Salary-Management/backend/src/main/java/com/acme/salarymanagement/seed/DatabaseSeeder.java
-/Users/rahulraj/Documents/ChatGPT/Salary-Management/backend/src/main/java/com/acme/salarymanagement/seed/EmployeeSeedFactory.java
-/Users/rahulraj/Documents/ChatGPT/Salary-Management/backend/src/main/java/com/acme/salarymanagement/seed/SeedEmployee.java
