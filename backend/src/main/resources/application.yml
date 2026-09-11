@@ -4,7 +4,7 @@ spring:
   datasource:
     # Kept beside the backend when running locally; ignored by Git.
     # This avoids requiring a pre-created runtime directory on a clean checkout.
-    url: jdbc:sqlite:salary-management.db
+    url: jdbc:sqlite:salary-management-v2.db
     driver-class-name: org.sqlite.JDBC
   jpa:
     database-platform: org.hibernate.community.dialect.SQLiteDialect
